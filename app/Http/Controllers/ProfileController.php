@@ -26,5 +26,7 @@ class ProfileController extends Controller
 
         // 4. Redirige al login con un mensaje
         return redirect('/login')->with('success', 'Tu cuenta ha sido eliminada correctamente.');
+
+        ///////pruba
     }
 }
